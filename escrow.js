@@ -33,7 +33,7 @@ var con = mysql.createConnection({
 
 const {createServer} = require('http')
 const server = createServer(() => {})
-server.listen(3000)
+server.listen(8080)
 con.connect(function(err) {
     if (err) throw err;
     console.log("Connected!");
